@@ -12,6 +12,21 @@ public enum RoomState
     CLOSEUP
 };
 
+public enum RoomWallpaperStyle
+{
+    Classic = 0,
+    Modern = 1,
+    Kids = 2
+};
+
+public enum RoomType
+{
+    LivingRoom = 0,
+    Bedroom = 1,
+    KidsRoom = 2
+}
+
+
 public class WallController : ListComponent<WallController> {
 
     public RoomState State
@@ -42,9 +57,14 @@ public class WallController : ListComponent<WallController> {
         }
     }
 
- 
+    [SerializeField]
+    private RoomWallpaperStyle wallpaperStyle;
+    public RoomWallpaperStyle WallpaperStyle { get { return wallpaperStyle; } private set { wallpaperStyle = value; } }
 
-    
+    [SerializeField]
+    private RoomType roomType;
+    public RoomType RoomType { get { return roomType; } private set { roomType = value; } }
+
     [SerializeField]
     private GameObject stylesUI, zoomCanvas, switchRoomsButton, zoomButton;
     [SerializeField]
@@ -148,6 +168,7 @@ public class WallController : ListComponent<WallController> {
         colorIdx = 0;
         colorsUIs[styleIdx].gameObject.SetActive(true);
         SetSkyboxes();
+        ChangeRoomSwitchSprites(styleIdx);
     }
 
     IEnumerator SwitchWallpaper(int wIdx)
@@ -175,5 +196,13 @@ public class WallController : ListComponent<WallController> {
         BackgroundFader.Instance.StartFadeIn();
         yield return new WaitForSeconds(Const.fadeDuration);
         State = RoomState.OVERVIEW;
+    }
+
+    public void ChangeRoomSwitchSprites(int styleIdx)
+    {
+        if (roomType == RoomType.KidsRoom)
+            return;
+        Debug.Log(name);
+        GetComponentInChildren<RoomSwitchButtonsController>().SetButtonSprites(colorsUIs[styleIdx].previewSprites[styleIdx]);
     }
 }

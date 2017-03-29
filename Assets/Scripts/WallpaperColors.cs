@@ -10,6 +10,7 @@ public class WallpaperColors : MonoBehaviour {
     public int cubemapRotation;
 
     public Sprite[] wallpaperSprites;
+    public Sprite[] previewSprites;
     public CollectionType collection;
 
     [SerializeField]

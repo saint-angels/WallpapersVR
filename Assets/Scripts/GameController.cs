@@ -33,7 +33,6 @@ public class GameController : SingletonComponent<GameController> {
         }
     }
 
-
     [SerializeField]
     private WallController[] rooms;
     [SerializeField]
@@ -110,8 +109,9 @@ public class GameController : SingletonComponent<GameController> {
         State = GameState.MENU;
      //   rooms[currRoomIdx].State = RoomState.OVERVIEW;
     }
-	
-	// Update is called once per frame
+
+    float userNotPresentFor = 0f;
+
 	void Update () {
 
         if (currActionCooldown > 0) {
@@ -140,6 +140,18 @@ public class GameController : SingletonComponent<GameController> {
                 StartCoroutine(SwitchToMenu());
             //}
         }
+
+        if (!OVRPlugin.userPresent)
+        {
+            userNotPresentFor += Time.deltaTime;
+            if (userNotPresentFor >= 30f)
+            {
+                userNotPresentFor = 0f;
+                StartCoroutine(SwitchToMenu());
+            }
+        }
+        else
+            userNotPresentFor = 0f;
     }
     IEnumerator SwitchRoomTo(int roomIdx, int styleIdx) {
         Player.Instance.FadeOutIn();
