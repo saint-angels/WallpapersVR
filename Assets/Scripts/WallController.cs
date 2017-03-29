@@ -130,6 +130,7 @@ public class WallController : ListComponent<WallController> {
     {
         colorsUIs[styleIdx].SetSelected(colorIdx);
         Player.Instance.SetSkyboxes(colorsUIs[styleIdx].lTextures[colorIdx], colorsUIs[styleIdx].rTextures[colorIdx], colorsUIs[styleIdx].cubemapRotation);
+        ChangeRoomSwitchSprites(styleIdx);
     }
 
     // Use this for initialization
@@ -168,7 +169,6 @@ public class WallController : ListComponent<WallController> {
         colorIdx = 0;
         colorsUIs[styleIdx].gameObject.SetActive(true);
         SetSkyboxes();
-        ChangeRoomSwitchSprites(styleIdx);
     }
 
     IEnumerator SwitchWallpaper(int wIdx)
@@ -203,6 +203,7 @@ public class WallController : ListComponent<WallController> {
         if (roomType == RoomType.KidsRoom)
             return;
         Debug.Log(name);
-        GetComponentInChildren<RoomSwitchButtonsController>().SetButtonSprites(colorsUIs[styleIdx].previewSprites[styleIdx]);
+        Debug.Log(styleIdx + " " + colorIdx);
+        switchRoomsButton.GetComponent<RoomSwitchButtonsController>().SetButtonSprites(colorsUIs[styleIdx].previewSprites[colorIdx]);
     }
 }
