@@ -24,4 +24,12 @@ public class RoomSwitchButtonsController : MonoBehaviour {
         buttonTargetGraphics.sprite = mainButtonSprite;
         secondaryButtonTargetGraphics.sprite = secondaryButtonSprite;
     }
+
+    public void ChangeButtonEvents(int main, int secondary)
+    {
+        mainButton.onClick.RemoveAllListeners();
+        mainButton.onClick.AddListener(() => { GameController.Instance.PressedSwitchRoomTo(main); Debug.Log(main); });
+        secondaryButton.onClick.RemoveAllListeners();
+        secondaryButton.onClick.AddListener(() => { GameController.Instance.PressedSwitchRoomTo(secondary); Debug.Log(main); });
+    }
 }

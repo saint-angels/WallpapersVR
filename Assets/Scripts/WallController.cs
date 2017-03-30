@@ -233,9 +233,12 @@ public class WallController : ListComponent<WallController>
             lastRoomIdx += 1;
         Debug.Log(lastRoomIdx + " " + LastBedroom.styleIdx + " " + LastBedroom.colorIdx);
         if (roomType == RoomType.KidsRoom)
+        {
             switchRoomsButton.GetComponent<RoomSwitchButtonsController>().
                 SetButtonSprites(GameController.Rooms[lastRoomIdx].colorsUIs[LastBedroom.styleIdx].previewSprites[LastBedroom.colorIdx],
                                  GameController.Rooms[lastRoomIdx - 1].colorsUIs[LastBedroom.styleIdx].previewSprites[LastBedroom.colorIdx]);
+            switchRoomsButton.GetComponent<RoomSwitchButtonsController>().ChangeButtonEvents((lastRoomIdx-1) * 10 + LastBedroom.styleIdx, lastRoomIdx * 10 + LastBedroom.styleIdx);
+        }
         else
             switchRoomsButton.GetComponent<RoomSwitchButtonsController>().SetMainButtonSprite(colorsUIs[styleIdx].previewSprites[colorIdx]);
     }
