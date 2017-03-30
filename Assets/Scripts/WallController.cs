@@ -27,12 +27,14 @@ public enum RoomType
 }
 
 
-public class WallController : ListComponent<WallController> {
+public class WallController : ListComponent<WallController>
+{
 
     public RoomState State
     {
         get { return this.state; }
-        set {
+        set
+        {
             state = value;
             stylesUI.SetActive(false);
             switchRoomsButton.SetActive(false);
@@ -44,7 +46,7 @@ public class WallController : ListComponent<WallController> {
                 case RoomState.UNLOADED:
                     break;
                 case RoomState.OVERVIEW:
-                    SetSkyboxes();
+                    //SetSkyboxes();
                     stylesUI.SetActive(true);
                     colorsUIs[styleIdx].gameObject.SetActive(true);
                     switchRoomsButton.SetActive(true);
@@ -56,6 +58,16 @@ public class WallController : ListComponent<WallController> {
             }
         }
     }
+
+    public class LastRoom
+    {
+        public int roomIdx;
+        public int styleIdx;
+        public int colorIdx;
+    }
+
+    public static LastRoom LastBedroom = new LastRoom();
+
 
     [SerializeField]
     private RoomWallpaperStyle wallpaperStyle;
@@ -73,19 +85,23 @@ public class WallController : ListComponent<WallController> {
     private RoomState state;
 
     int styleIdx = 0;
-    int colorIdx = 0;
+    static int colorIdx = 0;
 
-    public int GetCollectionIndexForCollection(CollectionType collection) {
+    public int GetCollectionIndexForCollection(CollectionType collection)
+    {
         int collectionIndex = 0;
-        for (int i = 0; i < colorsUIs.Length; i++) {
-           if(colorsUIs[i].collection == collection) {
+        for (int i = 0; i < colorsUIs.Length; i++)
+        {
+            if (colorsUIs[i].collection == collection)
+            {
                 collectionIndex = i;
             }
         }
         return collectionIndex;
     }
 
-    public void PressedSwitchRoomTo(int roomIdx) {
+    public void PressedSwitchRoomTo(int roomIdx)
+    {
         GameController.Instance.PressedSwitchRoomFrom(colorsUIs[styleIdx].collection, roomIdx);
     }
 
@@ -117,7 +133,7 @@ public class WallController : ListComponent<WallController> {
         }
     }
 
-    public void PressedUnzoomCurrentWallpaper ()
+    public void PressedUnzoomCurrentWallpaper()
     {
         if (GameController.CanMakeAction())
         {
@@ -126,49 +142,58 @@ public class WallController : ListComponent<WallController> {
         }
     }
 
-    public void SetSkyboxes()
+    public void SetSkyboxes(int roomIdx = -1)
     {
+        if (roomIdx != -1)
+            LastBedroom.roomIdx = roomIdx;
+        LastBedroom.styleIdx = styleIdx;
+        LastBedroom.colorIdx = colorIdx;
         colorsUIs[styleIdx].SetSelected(colorIdx);
         Player.Instance.SetSkyboxes(colorsUIs[styleIdx].lTextures[colorIdx], colorsUIs[styleIdx].rTextures[colorIdx], colorsUIs[styleIdx].cubemapRotation);
         ChangeRoomSwitchSprites(styleIdx);
     }
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         State = RoomState.UNLOADED;
     }
 
- 
-	
-	// Update is called once per frame
-	void Update () {
-
-        
 
 
-        if(Input.GetKeyDown(KeyCode.Z)) PressedZoomCurrentWallPaper();
-        else if(Input.GetKeyDown(KeyCode.C)) PressedUnzoomCurrentWallpaper();
+    // Update is called once per frame
+    void Update()
+    {
 
-		/*if(Input.GetKeyDown(KeyCode.RightArrow)) {
+
+
+
+        if (Input.GetKeyDown(KeyCode.Z)) PressedZoomCurrentWallPaper();
+        else if (Input.GetKeyDown(KeyCode.C)) PressedUnzoomCurrentWallpaper();
+
+        /*if(Input.GetKeyDown(KeyCode.RightArrow)) {
 			colorIdx = ++colorIdx % leftEyeTextures.Length; // Get The next texture idx
             PressedSwitchWallpaper(colorIdx);
 		}else if(Input.GetKeyDown(KeyCode.LeftArrow)) {
 			if(--colorIdx == -1) colorIdx = leftEyeTextures.Length - 1; // Get The next texture idx
 			PressedSwitchWallpaper(colorIdx);
 		}*/
-	}
+    }
 
-    public IEnumerator SwitchWallpaperStyle(int newStyleIdx, bool fade)
+    public IEnumerator SwitchWallpaperStyle(int newStyleIdx, bool fade, bool preserveColor = false, int roomIdx = -1)
     {
-        if(fade) {
+        Debug.Log(preserveColor);
+        if (fade)
+        {
             Player.Instance.FadeOutIn();
             yield return new WaitForSeconds(Const.fadeDuration);
         }
         colorsUIs[styleIdx].gameObject.SetActive(false);
         styleIdx = newStyleIdx;
-        colorIdx = 0;
+        if (!preserveColor)
+            colorIdx = 0;
         colorsUIs[styleIdx].gameObject.SetActive(true);
-        SetSkyboxes();
+        SetSkyboxes(roomIdx);
     }
 
     IEnumerator SwitchWallpaper(int wIdx)
@@ -200,10 +225,12 @@ public class WallController : ListComponent<WallController> {
 
     public void ChangeRoomSwitchSprites(int styleIdx)
     {
+        int lastRoomIdx = LastBedroom.roomIdx;
+        Debug.Log(lastRoomIdx);
         if (roomType == RoomType.KidsRoom)
-            return;
-        Debug.Log(name);
-        Debug.Log(styleIdx + " " + colorIdx);
-        switchRoomsButton.GetComponent<RoomSwitchButtonsController>().SetButtonSprites(colorsUIs[styleIdx].previewSprites[colorIdx]);
+            switchRoomsButton.GetComponent<RoomSwitchButtonsController>().SetButtonSprites(GameController.Rooms[LastBedroom.roomIdx].colorsUIs[LastBedroom.styleIdx].previewSprites[LastBedroom.colorIdx],
+                                                                                           GameController.Rooms[LastBedroom.roomIdx].colorsUIs[LastBedroom.styleIdx].previewSprites[LastBedroom.colorIdx]);
+        else
+            switchRoomsButton.GetComponent<RoomSwitchButtonsController>().SetMainButtonSprite(colorsUIs[styleIdx].previewSprites[colorIdx]);
     }
 }

@@ -43,13 +43,15 @@ public class GameController : SingletonComponent<GameController> {
     Image zoomImage;
 
     public TMPro.TMP_FontAsset font;
-    
 
     private int currRoomIdx = 0;
     private GameState state;
 
     public static float actionDuration = Const.fadeDuration * 2.3f;
     public static float currActionCooldown = 0;
+
+    static GameController instance;
+    public static WallController[] Rooms { get { return instance.rooms; } private set { } }
 
     public void PressedUnzoom() {
         rooms[currRoomIdx].PressedUnzoomCurrentWallpaper();
@@ -75,21 +77,26 @@ public class GameController : SingletonComponent<GameController> {
             return true;
         }
     }
-
+    
     public void MainMenuPressedSwitchRoomTo(int roomIdx)
     {
         BackgroundFader.Instance.Reset();
-        PressedSwitchRoomTo(roomIdx);
+        SwitchRoom(roomIdx);
     }
 
-    public void PressedSwitchRoomTo(int roomIdx) {
+    public void PressedSwitchRoomTo(int roomIdx)
+    {
+        SwitchRoom(roomIdx, true);
+    }
+
+    public void SwitchRoom(int roomIdx, bool preserve = false)
+    {
         if (CanMakeAction())
         {
             currActionCooldown = actionDuration;
-
             int styleIdx = roomIdx % 10;
             roomIdx = roomIdx / 10;
-            StartCoroutine(SwitchRoomTo(roomIdx, styleIdx));
+            StartCoroutine(SwitchRoomTo(roomIdx, styleIdx, preserve));
         }
     }
 
@@ -98,13 +105,14 @@ public class GameController : SingletonComponent<GameController> {
             currActionCooldown = actionDuration;
             roomIdx = roomIdx / 10;
             int styleIdx = rooms[roomIdx].GetCollectionIndexForCollection(sourceCollection);
-            StartCoroutine(SwitchRoomTo(roomIdx, styleIdx));
+            StartCoroutine(SwitchRoomTo(roomIdx, styleIdx, true));
         }
     }
 
 
 	// Use this for initialization
 	void Start () {
+        instance = this;
       //  UnityEngine.VR.VRSettings.renderScale = 2f;
         State = GameState.MENU;
      //   rooms[currRoomIdx].State = RoomState.OVERVIEW;
@@ -140,7 +148,7 @@ public class GameController : SingletonComponent<GameController> {
                 StartCoroutine(SwitchToMenu());
             //}
         }
-
+#if !UNITY_EDITOR
         if (!OVRPlugin.userPresent)
         {
             userNotPresentFor += Time.deltaTime;
@@ -152,15 +160,16 @@ public class GameController : SingletonComponent<GameController> {
         }
         else
             userNotPresentFor = 0f;
+#endif
     }
-    IEnumerator SwitchRoomTo(int roomIdx, int styleIdx) {
+    IEnumerator SwitchRoomTo(int roomIdx, int styleIdx, bool preserve = false) {
         Player.Instance.FadeOutIn();
         yield return new WaitForSeconds(Const.fadeDuration);
         State = GameState.INROOM;
         rooms[currRoomIdx].State = RoomState.UNLOADED;
         currRoomIdx = roomIdx;
         rooms[currRoomIdx].State = RoomState.OVERVIEW;
-        rooms[currRoomIdx].StartCoroutine(rooms[currRoomIdx].SwitchWallpaperStyle(styleIdx, false));
+        rooms[currRoomIdx].StartCoroutine(rooms[currRoomIdx].SwitchWallpaperStyle(styleIdx, false, preserve, roomIdx));
     }
 
     IEnumerator SwitchToMenu()

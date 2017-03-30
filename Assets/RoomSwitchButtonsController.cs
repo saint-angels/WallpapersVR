@@ -9,9 +9,19 @@ public class RoomSwitchButtonsController : MonoBehaviour {
     private Image buttonTargetGraphics;
     [SerializeField]
     private Button mainButton;
+    [SerializeField]
+    private Image secondaryButtonTargetGraphics;
+    [SerializeField]
+    private Button secondaryButton;
 
-    public void SetButtonSprites(Sprite mainButtonSprite)
+    public void SetMainButtonSprite(Sprite mainButtonSprite)
     {
         buttonTargetGraphics.sprite = mainButtonSprite;
+    }
+
+    public void SetButtonSprites(Sprite mainButtonSprite, Sprite secondaryButtonSprite)
+    {
+        buttonTargetGraphics.sprite = mainButtonSprite;
+        secondaryButtonTargetGraphics.sprite = secondaryButtonSprite;
     }
 }
