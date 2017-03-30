@@ -16688,6 +16688,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonTargetGraphics: {fileID: 823033192}
   mainButton: {fileID: 88834182}
+  secondaryButtonTargetGraphics: {fileID: 0}
+  secondaryButton: {fileID: 0}
 --- !u!1001 &341474426
 Prefab:
   m_ObjectHideFlags: 0
@@ -34833,6 +34835,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonTargetGraphics: {fileID: 144279422}
   mainButton: {fileID: 2115483247}
+  secondaryButtonTargetGraphics: {fileID: 0}
+  secondaryButton: {fileID: 0}
 --- !u!1001 &721751704
 Prefab:
   m_ObjectHideFlags: 0
@@ -61620,7 +61624,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11425648, guid: 132e7f65a3fd16f48bb0cfcc88ef5e27, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11430226, guid: 132e7f65a3fd16f48bb0cfcc88ef5e27, type: 2}
@@ -68952,6 +68956,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonTargetGraphics: {fileID: 758833400}
   mainButton: {fileID: 326510713}
+  secondaryButtonTargetGraphics: {fileID: 0}
+  secondaryButton: {fileID: 0}
 --- !u!1 &1628855465
 GameObject:
   m_ObjectHideFlags: 0
@@ -71003,6 +71009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonTargetGraphics: {fileID: 198305529}
   mainButton: {fileID: 2060260771}
+  secondaryButtonTargetGraphics: {fileID: 0}
+  secondaryButton: {fileID: 0}
 --- !u!1 &1712321662
 GameObject:
   m_ObjectHideFlags: 0
