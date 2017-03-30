@@ -650,8 +650,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1673,8 +1674,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: VALENTINO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1842,8 +1844,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2634,8 +2637,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5374,8 +5378,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5544,8 +5549,9 @@ MonoBehaviour:
   m_text: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044E
     \u043E\u0431\u043E\u0435\u0432"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6172,8 +6178,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7565,8 +7572,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8577,8 +8585,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9114,8 +9123,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: MAGNUM
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9681,8 +9691,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10224,8 +10235,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10791,8 +10803,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11358,8 +11371,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13078,8 +13092,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13611,8 +13626,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14891,8 +14907,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: OLIVIA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16837,8 +16854,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17524,8 +17542,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17693,8 +17712,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20004,7 +20024,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &451126281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20396,8 +20416,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\u0421\u043F\u0430\u043B\u044C\u043D\u044F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21099,8 +21120,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21364,7 +21386,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -244.99756
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -21374,7 +21396,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 489.99512
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -23112,8 +23134,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24899,8 +24922,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25462,8 +25486,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25588,10 +25613,10 @@ RectTransform:
   m_Father: {fileID: 2057055723}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1130, y: -1.0628937}
+  m_SizeDelta: {x: 2260, y: 2.1257875}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &542361551
 MonoBehaviour:
@@ -26181,7 +26206,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -244.99756
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -26191,7 +26216,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 489.99512
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -28007,8 +28032,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: OLIVIA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28455,10 +28481,10 @@ RectTransform:
   m_Father: {fileID: 1017541954}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1130, y: -628.93713}
+  m_SizeDelta: {x: 2260, y: 1257.8743}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &617597784
 MonoBehaviour:
@@ -28961,8 +28987,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30449,8 +30476,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: SCHOOL
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31527,7 +31555,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -244.99756
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -31537,7 +31565,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 489.99512
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -32498,8 +32526,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -33330,8 +33359,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -33611,8 +33641,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -34292,8 +34323,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -35491,8 +35523,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -37849,8 +37882,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -38931,8 +38965,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -39968,8 +40003,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -40594,8 +40630,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: VALENTINO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -41540,7 +41577,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -244.99756
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -41550,7 +41587,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 489.99512
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -42527,8 +42564,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -45048,10 +45086,10 @@ RectTransform:
   m_Father: {fileID: 2057055723}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1130, y: -631.0629}
+  m_SizeDelta: {x: 2260, y: 1257.8743}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1017541955
 MonoBehaviour:
@@ -46204,8 +46242,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -46957,8 +46996,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: MAGNUM
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -47831,8 +47871,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -48007,8 +48048,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -48581,8 +48623,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -49208,8 +49251,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: ALEXANDER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -51336,8 +51380,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -52434,8 +52479,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -53484,8 +53530,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -53653,8 +53700,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -54665,8 +54713,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -54953,8 +55002,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -55086,7 +55136,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -55948,8 +55998,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -56515,8 +56566,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -57067,8 +57119,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: MAGNUM
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -57634,8 +57687,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -58869,8 +58923,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -59436,8 +59491,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -59861,7 +59917,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -244.99756
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -59871,7 +59927,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 489.99512
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -62978,8 +63034,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -64196,8 +64253,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -64498,7 +64556,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -244.99756
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -64508,7 +64566,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 489.99512
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -65339,8 +65397,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: ALEXANDER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -65942,8 +66001,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -66983,8 +67043,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -69416,8 +69477,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -70976,8 +71038,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: ALEXANDER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -71737,8 +71800,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -72659,8 +72723,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: VALENTINO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -72923,8 +72988,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: '12 : 22 PM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -74135,8 +74201,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: OLIVIA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -75384,8 +75451,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -76316,8 +76384,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: FRIENDS
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -76882,6 +76951,7 @@ GameObject:
   - component: {fileID: 1837091354}
   - component: {fileID: 1837091356}
   - component: {fileID: 1837091355}
+  - component: {fileID: 1837091357}
   m_Layer: 5
   m_Name: TMP SubMeshUI [Bangers SDF Material + LiberationSans SDF Atlas]
   m_TagString: Untagged
@@ -76941,6 +77011,24 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1837091353}
+--- !u!114 &1837091357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1837091353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e62188adca544cf1b96ccf1630f15f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DoNotTesselate: 0
+  savedPos: {x: 0, y: 0, z: 0}
+  savedUp: {x: 0, y: 0, z: 0}
+  savedRectSize: {x: 0, y: 0}
+  savedColor: {r: 0, g: 0, b: 0, a: 0}
+  savedTextUV0: {x: 0, y: 0}
+  savedFill: 0
 --- !u!1 &1839553669
 GameObject:
   m_ObjectHideFlags: 0
@@ -77619,8 +77707,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: VALENTINO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -80069,8 +80158,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\u0426\u0432\u0435\u0442\u0430"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -80702,8 +80792,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -80871,8 +80962,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\u0426\u0432\u0435\u0442\u0430"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -81678,8 +81770,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: ALEXANDER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -82958,8 +83051,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: OLIVIA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -83307,8 +83401,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\u0426\u0432\u0435\u0442\u0430"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -84498,8 +84593,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -85084,8 +85180,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -86183,8 +86280,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: WINE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -86976,7 +87074,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -244.99756
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -86986,7 +87084,7 @@ Prefab:
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 489.99512
       objectReference: {fileID: 0}
     - target: {fileID: 224721286654577826, guid: 4e1bc804022ce4b4bae7f3f8b0d7685d,
         type: 2}
@@ -87585,10 +87683,10 @@ RectTransform:
   m_Father: {fileID: 467649912}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1150, y: -650}
+  m_SizeDelta: {x: 2260, y: 1260}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2057055724
 MonoBehaviour:
@@ -88589,8 +88687,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: "\u0421\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u0430\u044F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 96b2baddf9c8f1644bac54d63108f102, type: 2}
+  m_sharedMaterial: {fileID: 21991493762781796, guid: 96b2baddf9c8f1644bac54d63108f102,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
