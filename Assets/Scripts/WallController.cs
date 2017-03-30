@@ -144,10 +144,13 @@ public class WallController : ListComponent<WallController>
 
     public void SetSkyboxes(int roomIdx = -1)
     {
-        if (roomIdx != -1)
-            LastBedroom.roomIdx = roomIdx;
-        LastBedroom.styleIdx = styleIdx;
-        LastBedroom.colorIdx = colorIdx;
+        if (roomType != RoomType.KidsRoom)
+        {
+            if (roomIdx != -1)
+                LastBedroom.roomIdx = roomIdx;
+            LastBedroom.styleIdx = styleIdx;
+            LastBedroom.colorIdx = colorIdx;
+        }
         colorsUIs[styleIdx].SetSelected(colorIdx);
         Player.Instance.SetSkyboxes(colorsUIs[styleIdx].lTextures[colorIdx], colorsUIs[styleIdx].rTextures[colorIdx], colorsUIs[styleIdx].cubemapRotation);
         ChangeRoomSwitchSprites(styleIdx);
@@ -226,10 +229,13 @@ public class WallController : ListComponent<WallController>
     public void ChangeRoomSwitchSprites(int styleIdx)
     {
         int lastRoomIdx = LastBedroom.roomIdx;
-        Debug.Log(lastRoomIdx);
+        if (lastRoomIdx == 0 || lastRoomIdx == 2)
+            lastRoomIdx += 1;
+        Debug.Log(lastRoomIdx + " " + LastBedroom.styleIdx + " " + LastBedroom.colorIdx);
         if (roomType == RoomType.KidsRoom)
-            switchRoomsButton.GetComponent<RoomSwitchButtonsController>().SetButtonSprites(GameController.Rooms[LastBedroom.roomIdx].colorsUIs[LastBedroom.styleIdx].previewSprites[LastBedroom.colorIdx],
-                                                                                           GameController.Rooms[LastBedroom.roomIdx].colorsUIs[LastBedroom.styleIdx].previewSprites[LastBedroom.colorIdx]);
+            switchRoomsButton.GetComponent<RoomSwitchButtonsController>().
+                SetButtonSprites(GameController.Rooms[lastRoomIdx].colorsUIs[LastBedroom.styleIdx].previewSprites[LastBedroom.colorIdx],
+                                 GameController.Rooms[lastRoomIdx - 1].colorsUIs[LastBedroom.styleIdx].previewSprites[LastBedroom.colorIdx]);
         else
             switchRoomsButton.GetComponent<RoomSwitchButtonsController>().SetMainButtonSprite(colorsUIs[styleIdx].previewSprites[colorIdx]);
     }
