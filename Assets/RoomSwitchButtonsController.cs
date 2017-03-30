@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class RoomSwitchButtonsController : MonoBehaviour {
+public class RoomSwitchButtonsController : MonoBehaviour
+{
 
     [SerializeField]
     private Image buttonTargetGraphics;
@@ -25,11 +26,17 @@ public class RoomSwitchButtonsController : MonoBehaviour {
         secondaryButtonTargetGraphics.sprite = secondaryButtonSprite;
     }
 
-    public void ChangeButtonEvents(int main, int secondary)
+    public void ChangeButtonEvents(int main = -1, int secondary = -1)
     {
-        mainButton.onClick.RemoveAllListeners();
-        mainButton.onClick.AddListener(() => { GameController.Instance.PressedSwitchRoomTo(main); Debug.Log(main); });
-        secondaryButton.onClick.RemoveAllListeners();
-        secondaryButton.onClick.AddListener(() => { GameController.Instance.PressedSwitchRoomTo(secondary); Debug.Log(main); });
+        if (main != -1)
+        {
+            mainButton.onClick.RemoveAllListeners();
+            mainButton.onClick.AddListener(() => { GameController.Instance.PressedSwitchRoomTo(main); Debug.Log(main); });
+        }
+        if (secondary != -1)
+        {
+            secondaryButton.onClick.RemoveAllListeners();
+            secondaryButton.onClick.AddListener(() => { GameController.Instance.PressedSwitchRoomTo(secondary); Debug.Log(main); });
+        }
     }
 }

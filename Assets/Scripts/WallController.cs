@@ -67,6 +67,7 @@ public class WallController : ListComponent<WallController>
     }
 
     public static LastRoom LastBedroom = new LastRoom();
+    public static LastRoom LastKidsRoom = new LastRoom() { roomIdx = 4 };
 
 
     [SerializeField]
@@ -151,6 +152,13 @@ public class WallController : ListComponent<WallController>
             LastBedroom.styleIdx = styleIdx;
             LastBedroom.colorIdx = colorIdx;
         }
+        else
+        {
+            if (roomIdx != -1)
+                LastKidsRoom.roomIdx = roomIdx;
+            LastKidsRoom.styleIdx = styleIdx;
+            LastKidsRoom.colorIdx = colorIdx;
+        }
         colorsUIs[styleIdx].SetSelected(colorIdx);
         Player.Instance.SetSkyboxes(colorsUIs[styleIdx].lTextures[colorIdx], colorsUIs[styleIdx].rTextures[colorIdx], colorsUIs[styleIdx].cubemapRotation);
         ChangeRoomSwitchSprites(styleIdx);
@@ -232,14 +240,20 @@ public class WallController : ListComponent<WallController>
         if (lastRoomIdx == 0 || lastRoomIdx == 2)
             lastRoomIdx += 1;
         Debug.Log(lastRoomIdx + " " + LastBedroom.styleIdx + " " + LastBedroom.colorIdx);
+        Debug.Log(LastKidsRoom.roomIdx + " " + LastKidsRoom.styleIdx + " " + LastKidsRoom.colorIdx);
+
         if (roomType == RoomType.KidsRoom)
         {
             switchRoomsButton.GetComponent<RoomSwitchButtonsController>().
                 SetButtonSprites(GameController.Rooms[lastRoomIdx].colorsUIs[LastBedroom.styleIdx].previewSprites[LastBedroom.colorIdx],
                                  GameController.Rooms[lastRoomIdx - 1].colorsUIs[LastBedroom.styleIdx].previewSprites[LastBedroom.colorIdx]);
-            switchRoomsButton.GetComponent<RoomSwitchButtonsController>().ChangeButtonEvents((lastRoomIdx-1) * 10 + LastBedroom.styleIdx, lastRoomIdx * 10 + LastBedroom.styleIdx);
+            switchRoomsButton.GetComponent<RoomSwitchButtonsController>().ChangeButtonEvents((lastRoomIdx - 1) * 10 + LastBedroom.styleIdx, lastRoomIdx * 10 + LastBedroom.styleIdx);
         }
         else
-            switchRoomsButton.GetComponent<RoomSwitchButtonsController>().SetMainButtonSprite(colorsUIs[styleIdx].previewSprites[colorIdx]);
+        {
+            switchRoomsButton.GetComponent<RoomSwitchButtonsController>().SetButtonSprites(colorsUIs[styleIdx].previewSprites[colorIdx],
+                                                                                           GameController.Rooms[LastKidsRoom.roomIdx].colorsUIs[LastKidsRoom.styleIdx].previewSprites[0]);
+            switchRoomsButton.GetComponent<RoomSwitchButtonsController>().ChangeButtonEvents(-1, (LastKidsRoom.roomIdx) * 10 + LastKidsRoom.styleIdx);
+        }
     }
 }
