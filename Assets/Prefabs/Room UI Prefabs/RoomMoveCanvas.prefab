@@ -430,7 +430,7 @@ MonoBehaviour:
   DoNotTesselate: 0
   savedPos: {x: 0.000012205914, y: -73.50001, z: -0.00022888184}
   savedUp: {x: 0, y: 1, z: 0}
-  savedRectSize: {x: 300, y: 300}
+  savedRectSize: {x: 190, y: 190}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
   savedTextUV0: {x: 0, y: 0}
   savedFill: 1
@@ -740,7 +740,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -241}
-  m_SizeDelta: {x: 300, y: 300}
+  m_SizeDelta: {x: 190, y: 190}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!224 &224761898316548312
 RectTransform:
