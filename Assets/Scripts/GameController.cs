@@ -58,7 +58,7 @@ public class GameController : SingletonComponent<GameController> {
     }
 
     public void SetTitleAndDescription(CollectionType collection, Sprite sprite) {
-        zoomTitle.text = Const.TitleForCollection(collection);
+        zoomTitle.text = Const.TitleForCollection(collection);        
         zoomDescription.text = Const.DescriptionForCollection(collection);
 
         float aspectRaio = sprite.bounds.size.x / sprite.bounds.size.y;
