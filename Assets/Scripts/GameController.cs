@@ -118,7 +118,7 @@ public class GameController : SingletonComponent<GameController> {
      //   rooms[currRoomIdx].State = RoomState.OVERVIEW;
     }
 
-    float userNotPresentFor = 0f;
+    int userNotPresentStamp = System.DateTime.Now.Second;
 
 	void Update () {
 
@@ -151,15 +151,14 @@ public class GameController : SingletonComponent<GameController> {
 #if !UNITY_EDITOR
         if (!OVRPlugin.userPresent)
         {
-            userNotPresentFor += Time.deltaTime;
-            if (userNotPresentFor >= 30f)
+            if (System.DateTime.Now.Second - userNotPresentStamp >= 30)
             {
-                userNotPresentFor = 0f;
-                StartCoroutine(SwitchToMenu());
+                userNotPresentStamp = System.DateTime.Now.Second;
+                SwitchToMenuNoFade();
             }
         }
         else
-            userNotPresentFor = 0f;
+            userNotPresentStamp = System.DateTime.Now.Second;
 #endif
     }
     IEnumerator SwitchRoomTo(int roomIdx, int styleIdx, bool preserve = false) {
@@ -176,6 +175,13 @@ public class GameController : SingletonComponent<GameController> {
     {
         Player.Instance.FadeOutIn();
         yield return new WaitForSeconds(Const.fadeDuration);
+        State = GameState.MENU;
+    }
+
+    void SwitchToMenuNoFade()
+    {
+        //Player.Instance.FadeOutIn();
+        //yield return new WaitForSeconds(Const.fadeDuration);
         State = GameState.MENU;
     }
 }
