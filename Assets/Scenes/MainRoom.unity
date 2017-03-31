@@ -78426,8 +78426,8 @@ MonoBehaviour:
   cubemapRotation: 0
   wallpaperSprites:
   - {fileID: 21300000, guid: 1a51d787490a6a94685da885a8d00ed2, type: 3}
-  - {fileID: 21300000, guid: 1517b11974bb86745a9a2aa8bc4b99f1, type: 3}
   - {fileID: 21300000, guid: 0755dd534487f6349a528bc5906df62e, type: 3}
+  - {fileID: 21300000, guid: 1517b11974bb86745a9a2aa8bc4b99f1, type: 3}
   previewSprites:
   - {fileID: 21300000, guid: e80ff0a62f536134cb5ddd172d8d3f83, type: 3}
   - {fileID: 21300000, guid: 09d929ed6c622934c86aa615845feb5c, type: 3}
@@ -84147,7 +84147,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1977877517}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3c11efb79108e04ab0fa883391b12fb, type: 3}
   m_Name: 

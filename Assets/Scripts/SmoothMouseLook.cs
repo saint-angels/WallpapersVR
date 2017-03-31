@@ -126,6 +126,10 @@ public class SmoothMouseLook : MonoBehaviour
         if (rb)
             rb.freezeRotation = true;
         originalRotation = transform.localRotation;
+#if UNITY_ANDROID && !UNITY_EDITOR
+        enabled = false;
+#endif
+
     }
 
     public static float ClampAngle(float angle, float min, float max)
