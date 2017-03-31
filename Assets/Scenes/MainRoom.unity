@@ -41998,7 +41998,7 @@ MonoBehaviour:
   wallpaperSprites:
   - {fileID: 21300000, guid: ad7c9ca0a25db0e44b6358e45b533978, type: 3}
   - {fileID: 21300000, guid: 4aa3dcc93edbed44f987260fee556470, type: 3}
-  - {fileID: 21300000, guid: 462a073b3fe8d394cb981a309e78f80e, type: 3}
+  - {fileID: 21300000, guid: 28d96f231e9e63743a8af6426506139f, type: 3}
   previewSprites:
   - {fileID: 21300000, guid: fea7e7e9f07af22479029de880b3e2d4, type: 3}
   - {fileID: 21300000, guid: 1b2f196b79860da449e006934fd12bb7, type: 3}
@@ -50694,7 +50694,7 @@ MonoBehaviour:
   wallpaperSprites:
   - {fileID: 21300000, guid: ad7c9ca0a25db0e44b6358e45b533978, type: 3}
   - {fileID: 21300000, guid: 4aa3dcc93edbed44f987260fee556470, type: 3}
-  - {fileID: 21300000, guid: 462a073b3fe8d394cb981a309e78f80e, type: 3}
+  - {fileID: 21300000, guid: 28d96f231e9e63743a8af6426506139f, type: 3}
   previewSprites:
   - {fileID: 21300000, guid: 8dff40b403423a24ba576860bc1d1e75, type: 3}
   - {fileID: 21300000, guid: e7b9c030d5afc8b4f88ead242475677b, type: 3}
@@ -78416,8 +78416,8 @@ MonoBehaviour:
   cubemapRotation: 0
   wallpaperSprites:
   - {fileID: 21300000, guid: 1a51d787490a6a94685da885a8d00ed2, type: 3}
-  - {fileID: 21300000, guid: 1517b11974bb86745a9a2aa8bc4b99f1, type: 3}
   - {fileID: 21300000, guid: 0755dd534487f6349a528bc5906df62e, type: 3}
+  - {fileID: 21300000, guid: 1517b11974bb86745a9a2aa8bc4b99f1, type: 3}
   previewSprites:
   - {fileID: 21300000, guid: e80ff0a62f536134cb5ddd172d8d3f83, type: 3}
   - {fileID: 21300000, guid: 09d929ed6c622934c86aa615845feb5c, type: 3}
