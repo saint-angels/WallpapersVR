@@ -25,8 +25,6 @@ public class Player : SingletonComponent<Player> {
     public OVRScreenFade leftEyeFade;
 
     public void SetSkyboxes(Texture leftEyeTexture, Texture rightEyeTexture, float rotation) {
-       // leftEyeTexture.isPowerOfTwo = true;         // This line prevents the error
-
         leftEyeSkybox.material.SetTexture("_Tex", leftEyeTexture);
         rightEyeSkybox.material.SetTexture("_Tex", rightEyeTexture);
 
