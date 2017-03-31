@@ -115,7 +115,6 @@ public class GameController : SingletonComponent<GameController> {
         instance = this;
       //  UnityEngine.VR.VRSettings.renderScale = 2f;
         State = GameState.MENU;
-     //   rooms[currRoomIdx].State = RoomState.OVERVIEW;
     }
 
     int userNotPresentStamp = System.DateTime.Now.Second;
@@ -127,19 +126,6 @@ public class GameController : SingletonComponent<GameController> {
         }
 
 
-
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            int nextRoomIdx = currRoomIdx - 1;
-            if (nextRoomIdx == -1) nextRoomIdx = rooms.Length - 1; // Get The next texture idx
-            PressedSwitchRoomTo(nextRoomIdx);
-        }
-        else if(Input.GetKeyDown(KeyCode.D))
-        {
-            int nextRoomIdx = (currRoomIdx + 1) % rooms.Length; // Get The next room idx
-            PressedSwitchRoomTo(nextRoomIdx);
-
-        }
         if (Input.GetMouseButtonDown(1)) {//Pressed back button
            /* if (rooms[currRoomIdx].State == RoomState.CLOSEUP) {
                 rooms[currRoomIdx].PressedUnzoomCurrentWallpaper();
@@ -149,15 +135,12 @@ public class GameController : SingletonComponent<GameController> {
             //}
         }
 #if !UNITY_EDITOR
-        if (!OVRPlugin.userPresent)
+        if (System.DateTime.Now.Second - userNotPresentStamp >= 30)
         {
-            if (System.DateTime.Now.Second - userNotPresentStamp >= 30)
-            {
-                userNotPresentStamp = System.DateTime.Now.Second;
-                SwitchToMenuNoFade();
-            }
+            userNotPresentStamp = System.DateTime.Now.Second;
+            SwitchToMenuNoFade();
         }
-        else
+        if (OVRPlugin.userPresent)
             userNotPresentStamp = System.DateTime.Now.Second;
 #endif
     }
@@ -180,7 +163,6 @@ public class GameController : SingletonComponent<GameController> {
 
     void SwitchToMenuNoFade()
     {
-        //Player.Instance.FadeOutIn();
         //yield return new WaitForSeconds(Const.fadeDuration);
         State = GameState.MENU;
     }
